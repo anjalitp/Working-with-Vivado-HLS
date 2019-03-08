@@ -1,4 +1,4 @@
-#include "common_parameters.h"
+ck,#include "common_parameters.h"
 
 int find_hammingweight(int value)
 {
@@ -18,7 +18,8 @@ int find_hammingweight(int value)
 return sum;
 }
 
-void Convolution(input_datatype input[INPUT_WIDTH],output[OUTPUT_LAYER1],weight)
+
+void Convolution(input_datatype input[layer.input_width],output[layer.output_width],weight,configuration layer)
 {
 
 	input:for(int i=0;i<OUTPUT_LAYER1_WIDTH;++i){
